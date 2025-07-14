@@ -1,0 +1,88 @@
+.nav .nav-item .nav-link {
+  color:gray;
+  font-size: 18px;
+  text-transform: uppercase;
+
+  text-decoration: none;
+}
+.nav .nav-item .active{
+    color:skyblue
+
+}
+input[type="search"] {
+    background-image: url('images/search-icon.png');
+    background-repeat: no-repeat;
+    background-position: 98% ;
+    background-size: 25px;
+
+}
+input[type="search"]::placeholder{
+font-size: 20px;
+color: rgb(154, 153, 153);
+
+}
+.breadcrumb .breadcrumb-item a {
+   color: black;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.py-2{
+    text-align: center!important;
+}
+.carousel-control-prev-icon{
+font-size: 50px;
+color: blue!important;    
+}
+.btn1{
+    display: none;
+}
+.btn1.hover{
+    background-color: #72aec8 !important;
+    border:2px solid  #72aec8 !important;
+}
+
+.card:hover .btn1{
+    display: block !important;
+}
+.btn2{
+    background-color: #72aec8 !important;
+    color: white;
+ 
+}
+.btn2:hover{
+    background-color:  black !important;
+}
+.insta a{
+    color:white;
+    text-decoration:none ;
+
+}
+.insta .img1
+{
+   margin-top: 25px;
+
+
+}
+.insta .fa-instagram
+{
+display: none;
+}
+.a:hover .fa-instagram 
+{
+display: block;
+}
+.f a
+{
+color: black;
+    text-decoration: none;
+
+
+}
+.f a:hover
+{
+color: #72aec8;
+}
+.dropdown-menu {
+    margin: left -250px !important; 
+}

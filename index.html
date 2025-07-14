@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniStore</title>
+    <link rel="shortcut icon" type="image/jpg" href="images/post-small-image1.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slick.css">
+    <link rel="stylesheet" href="slick-theme.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW..." crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3..." crossorigin="anonymous">
+
+</head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MiniStore</title>
+<link rel="shortcut icon" type="image/jpg" href="images/post-small-image1.jpg">
+</head>
+
+<body>
+    <!--navbar-->
+    <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+        <a class="navbar-brand" href="#"><img src="images/main-logo.png" alt=""></a>
+        <ul class="nav">
+
+            <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading1">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading2">Services</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading3">Products</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading4">Watches</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading5">Sale</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading6">Blog</a>
+            </li>
+            <li class="nav-item">
+
+                <p class="nav-link" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
+                    aria-controls="offcanvasTop"><img src="images/search-icon.png" alt=""></p>
+                <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop"
+                    aria-labelledby="offcanvasTopLabel">
+                    <div class="offcanvas-header">
+                        <div class="offcanvas-body">
+                            <input type="search"
+                                class="form-control bg-body-tertiary w-50 py-3 border-0 mx-auto d-block rounded-pill px-5 "
+                                placeholder="Type and press enter to search">
+
+                            <p class="py-2" style="font-size:10px;">BROWSE CATEGORIES</p>
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb justify-content-center">
+                                    <li class="breadcrumb-item"><a href="#">Mobile Phones</a></li>
+                                    <li class="breadcrumb-item"><a href="#">Smart Watches</a></li>
+                                    <li class="breadcrumb-item"><a href="#">Head Phones</a></li>
+                                </ol>
+
+
+                                <ol class="breadcrumb justify-content-center">
+                                    <li class="breadcrumb-item"><a href="#">Accessories</a></li>
+                                    <li class="breadcrumb-item"><a href="#">Monitors</a></li>
+                                    <li class="breadcrumb-item "><a href="">Speakers</a></li>
+                                    <li class="breadcrumb-item "><a href="">Memory Cards</a></li>
+                                </ol>
+
+                            </nav>
+                        </div>
+            <li class="nav-item dropdown">
+                <a class="nav-link" href="#" data-bs-toggle="dropdown">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-cart-fill in" viewBox="0 0 16 16">
+                        <path
+                            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                    </svg><sup>0</sup></a>
+                <ul class="dropdown-menu ">
+                    <div class="cartitems">
+
+                    </div>
+                    <div class="subtotal">
+
+
+                    </div>
+
+                </ul>
+            </li>
+
+        </ul>
+    </nav>
+    </li>
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+        data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+        <div id="scrollspyHeading1">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row align-items-center ">
+                            <div class="col">
+                                <h1 class="display-1 ms-5">YOUR PRODUCTS ARE GREAT.</h1>
+
+                                <button class="btn btn-dark ms-5 mt-5 px-5 py-2" type="button">SHOP PRODUCT</button>
+                            </div>
+                            <div class="col">
+                                <img src="images/banner-image.png" class="img-fluid  mx-auto d-block">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-item active">
+                            <div class="row align-items-center ">
+                                <div class="col">
+                                    <h1 class="display-1 ms-5">YOUR PRODUCTS ARE GREAT.</h1>
+
+                                    <button class="btn btn-dark ms-5 mt-5 px-5 py-2" type="button">SHOP PRODUCT</button>
+                                </div>
+                                <div class="col">
+                                    <img src="images/banner-image.png" class="img-fluid  mx-auto d-block">
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="carousel-item active">
+                                <div class="row align-items-center ">
+                                    <div class="col">
+                                        <h1 class="display-1 ms-5">YOUR PRODUCTS ARE GREAT.</h1>
+
+                                        <button class="btn btn-dark ms-5 mt-5 px-5 py-2" type="button">SHOP
+                                            PRODUCT</button>
+                                    </div>
+                                    <div class="col">
+                                        <img src="images/banner-image.png" class="img-fluid  mx-auto d-block">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+
+                    <div id="scrollspyHeading2">
+                        <div class="container"></div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                            fill="currentColor" class="bi bi-cart3 text-info" viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                                        </svg>
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <h4>FREE DEILVERY</h4>
+                                        <P class="text-secondary">Consectrtur adipi elit lorem ipsum dolor sit amet.</P>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                            fill="currentColor" class="bi bi-award text-info" viewBox="0 0 16 16">
+                                            <path
+                                                d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702z" />
+                                            <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z" />
+                                        </svg>
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <h4>QUALITY GARANTEE</h4>
+                                        <P class="text-secondary">Dolor sir amet orem ipsu mcons ectetur adipi elit.</P>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                            fill="currentColor" class="bi bi-tag text-info" viewBox="0 0 16 16">
+                                            <path
+                                                d="M6 4.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m-1 0a.5.5 0 1 0-1 0 .5.5 0 0 0 1 0" />
+                                            <path
+                                                d="M2 1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 1 6.586V2a1 1 0 0 1 1-1m0 5.586 7 7L13.586 9l-7-7H2z" />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h4>DAILY OFFERS</h4>
+                                        <P class="text-secondary">Amet consecteur adipi elit lorem ipsum dolor sit.</P>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                            fill="currentColor" class="bi bi-shield-fill-plus text-info"
+                                            viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M8 0c-.69 0-1.843.265-2.928.56-1.11.3-2.229.655-2.887.87a1.54 1.54 0 0 0-1.044 1.262c-.596 4.477.787 7.795 2.465 9.99a11.8 11.8 0 0 0 2.517 2.453c.386.273.744.482 1.048.625.28.132.581.24.829.24s.548-.108.829-.24a7 7 0 0 0 1.048-.625 11.8 11.8 0 0 0 2.517-2.453c1.678-2.195 3.061-5.513 2.465-9.99a1.54 1.54 0 0 0-1.044-1.263 63 63 0 0 0-2.887-.87C9.843.266 8.69 0 8 0m-.5 5a.5.5 0 0 1 1 0v1.5H10a.5.5 0 0 1 0 1H8.5V9a.5.5 0 0 1-1 0V7.5H6a.5.5 0 0 1 0-1h1.5z" />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h4>100% SECURE PAYMENT</h4>
+                                        <P class="text-secondary">Rem lorem Dolor sit amet ,consecteur adipi elit .</P>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="scrollspyHeading3">
+                    <div class="container">
+                        <h1 class="mt-5 ms-4">SMART PHONES</h1>
+                        <div class="d-flex g-4 mt-2 mobiles">
+
+                        </div>
+                    </div>
+                </div>
+                <div id="scrollspyHeading4">
+                    <div class="container">
+                        <h1 class="mt-5 ms-4">SMART WATCHES</h1>
+                        <div class="d-flex g-4 mt-2 watches">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div id="scrollspyHeading5">
+                    <div class="row bg-body-tertiary mt-5 align-items-center">
+                        <div class="col-1"></div>
+                        <div class="col ms-5">
+                            <h4 class="fw-light">10% off</h4>
+                            <h1 class="fw-light display-1">NEW YEAR SALE</h1>
+                            <button type="button" class="btn btn-dark px-5 mt-4 py-2">SHOP SALE</button>
+
+
+                        </div>
+                        <div class="col">
+                            <img src="images/single-image1.png" class="">
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div id="scrollspyHeading6">
+                    <div class="container">
+                        <h1 class="mt-5">LATEST POSTS</h1>
+                        <div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
+                            <div class="col">
+                                <div class="card h-100 border-0">
+                                    <img src="images/post-image1.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-uppercase text-secondary">feb 22.2023 -Gadgets</h5>
+                                        <p class="card-text text-uppercase fs-5">Get some cool Gadgets in 2023</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100 border-0">
+                                    <img src="images/post-item2.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-uppercase text-secondary">feb 22.2023 -Technology
+                                        </h5>
+                                        <p class="card-text text-uppercase fs-5">Technology Hack You Won't Get</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100 border-0">
+                                    <img src="images/post-item3.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-uppercase text-secondary">feb 22.2024 -CAMERA
+                                        </h5>
+                                        <p class="card-text text-uppercase fs-5">Top 10 cameras in the world</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                        <!--carousal-->
+                        <div id="carouselExample1" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active text-center fs-5 p-5">
+                                    <i class="fa-solid fa-quote-right   text-body-tertiary"></i>
+                                    <blockquote class="display-6 w-75 mx-auto d-block">
+                                        <p>“Tempus oncu enim pellen tesque este pretium in neque,
+                                            elit morbi sagittis lorem habi mattis Pellen tesque pretium
+                                            feugiat vel morbi suspen dise sagittis lorem habi tasse morbi.”</p>
+                                    </blockquote>
+                                    <p class="text-info"><i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half-stroke"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </p>
+                                    <div class="text-dark text-uppercase pt-2">Emma chamberlin</div>
+
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carousel-item active text-center fs-5 p-5">
+
+                                        <i class="fa-solid fa-quote-right  text-body-tertiary"></i>
+                                        <blockquote class="display-6 w-75 mx-auto d-block">
+                                            <p>“A blog is a digital publication that can complement a website or exist
+                                                independently.
+                                                A blog may include articles, short posts, listicles, infographics,
+                                                videos,
+                                                and other digital content.”</p>
+                                        </blockquote>
+                                        <p class="text-info"><i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star-sharp-half-stroke"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </p>
+                                        <div class="text-dark text-uppercase pt-2">Jennie Rose</div>
+                                    </div>
+
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselExample1" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselExample1" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+
+                                </div>
+                                <!--
+                                
+-->
+
+                            </div>
+                            <div class="container bg-dark text-white p-5">
+                                <div class="row justify-content-between align-items-center">
+                                    <div class="col">
+                                        <h1>SUBSCRIBE US NOW</h1>
+                                        <p class="text-secondary fs-5">Get latest mews,updates and deals directly mailed
+                                            to
+                                            your inbox.</p>
+                                    </div>
+                                    <div class="col">
+                                        <div class="input-group mb-3">
+                                            <input type="email" class="form-control bg-light py-2"
+                                                placeholder="Your email address here" aria-label="Recipient’s username"
+                                                aria-describedby="button-addon2">
+                                            <button class="btn btn2 px-5 fs-5 py-3" type="button"
+                                                id="button-addon2">SUBSCRIBE</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- shop our insta -->
+                            <div class="container text-center mt-5">
+                                <h1 class="my-4">SHOP ON INSTA</h1>
+                                <div class="row insta">
+                                    <div class="col a">
+                                        <div class="position-relative">
+                                            <img src="images/insta-item1.jpg" class="w-100 img-fluid mx-auto d-block">
+                                            <div class="position-absolute top-50 start-50 translate-middle">
+                                                <a href="http://www.instagram.com"><i
+                                                        class="fa-brands fa-instagram fs-1"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col a">
+                                        <div class="position-relative">
+                                            <img src="images/insta-item2.jpg"
+                                                class="w-100 img1 img-fluid mx-auto d-block">
+                                            <div class="position-absolute top-50 start-50 translate-middle">
+                                                <a href="http://www.instagram.com"><i
+                                                        class="fa-brands fa-instagram fs-1"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col a">
+                                        <div class="position-relative">
+                                            <img src="images/insta-item3.jpg" class="w-100 img-fluid mx-auto d-block">
+                                            <div class="position-absolute top-50 start-50 translate-middle">
+                                                <a href="http://www.instagram.com"><i
+                                                        class="fa-brands fa-instagram fs-1"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col a">
+                                        <div class="position-relative">
+                                            <img src="images/insta-item4.jpg" class="w-100 img-fluid mx-auto d-block">
+                                            <div class="position-absolute top-50 start-50 translate-middle">
+                                                <a href="http://www.instagram.com"><i
+                                                        class="fa-brands fa-instagram fs-1"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col a">
+                                        <div class="position-relative">
+                                            <img src="images/insta-item5.jpg" class="w-100 img-fluid mx-auto d-block">
+                                            <div class="position-absolute top-50 start-50 translate-middle">
+                                                <a href="http://www.instagram.com"><i
+                                                        class="fa-brands fa-instagram fs-1"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- footer -->
+                            <div class="container mt-5">
+                                <div class="row mb-4">
+                                    <div class="col">
+                                        <img src="images/main-logo.png">
+                                        <p class="text-secondary">Nisi,purus vitae, ultrices nunc.Sit ac sit suscipit
+                                            hesndrerit. Gravida massa volutpat aenean odio erat nullam fringilla.<br>
+                                            <a href="#" class="text-secondary me-3"><i
+                                                    class="fa-brands fa-facebook-f"></i></a>
+                                            <a href="#" class="text-secondary me-3"><i
+                                                    class="fa-brands fa-instagram"></i></a>
+                                            <a href="#" class="text-secondary me-3"><i
+                                                    class="fa-brands fa-twitter"></i></a>
+                                            <a href="#" class="text-secondary me-3"><i
+                                                    class="fa-brands fa-linkedin-in"></i></a>
+                                            <a href="#" class="text-secondary me-3"><i
+                                                    class="fa-brands fa-youtube "></i></a>
+                                        </p>
+                                    </div>
+                                    <div class="col f">
+                                        <h3>QUICK LINKS</h3>
+                                        <ul class="list-unstyled">
+                                            <li><a href="#">HOME</a></li>
+                                            <li><a href="#">ABOUT</a></li>
+                                            <li><a href="#">SHOP</a></li>
+                                            <li><a href="#">BLOGS</a></li>
+                                            <li><a href="#">CONTACT</a></li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="col f">
+                                        <h3>HELP & INFO HELP</h3>
+                                        <ul class="list-unstyled">
+                                            <li><a href="#">TRACK YOUR ORDER</a></li>
+                                            <li><a href="#">RETURN POLICIES</a></li>
+                                            <li><a href="#">SHOPING + DELIVERY</a></li>
+                                            <li><a href="#">CONTACT US</a></li>
+                                            <li><a href="#">FAQS</a></li>
+
+                                        </ul>
+                                    </div>
+
+                                    <div class="col">
+                                        <h3>CONTACT US</h3>
+                                        <p class="text-secondary mb-0">Do you have any queries or suggestions?</p>
+                                        <a href="#">yourinfo@gmail.com</a>
+                                        <p class="text-secondary mb-0 mt-3">If you need support? Just give us call.</p>
+                                        <a href="#">+55 111 222 333 44</a>
+                                    </div>
+                                </div>
+                                <div class="row p-4 border-top">
+                                    <div class="col">We Ship With: <img src="images/dhl.png"><img
+                                            src="images/shippingcard.png"></div>
+                                    <div class="col">Payment options: <img src="images/visa.jpg"><img
+                                            src="images/mastercard.jpg">
+                                        <img src="images/paypal.jpg">
+                                    </div>
+                                    <div class="col">
+                                        <p class="text-secondary">
+                                            &copy: Copyright 2023 ministore. Design by <a href=" #">Rohitrb</a>
+                                            Distributed by <a href="#">Sevenmentor</a>
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <script>
+                            $(document).ready(function () {
+                                $('.mobiles').slick({
+                                    infinite: false,
+                                    dots: true,
+                                    slidesToShow: 4,
+                                    slidesToScroll: 1
+                                });
+                            });
+
+
+                            $(document).ready(function () {
+                                $('.watches').slick({
+                                    infinite: false,
+                                    dots: true,
+                                    slidesToShow: 4,
+                                    slidesToScroll: 1
+                                });
+                            });
+                        </script>
+
+                        <script src=" slick.js">
+                        </script>
+                        <script src="slick.min.js"></script>
+</body>
+
+</html>
+<script src="product.js"></script>
