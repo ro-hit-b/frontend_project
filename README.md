@@ -1,1 +1,1 @@
-# frontend_project
+mini_store
